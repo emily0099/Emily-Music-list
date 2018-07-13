@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +14,7 @@
         <scene sceneID="Zs2-jV-xCD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1vq-jW-8cK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="女歌手" id="8CK-sq-63O"/>
+                    <tabBarItem key="tabBarItem" title="女歌手" image="icons8-lady-filled-30" id="8CK-sq-63O"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JAL-su-zxp">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -55,7 +56,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02-1" translatesAutoresizingMaskIntoConstraints="NO" id="CVj-1K-XQV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02" translatesAutoresizingMaskIntoConstraints="NO" id="CVj-1K-XQV">
                                 <rect key="frame" x="16" y="76" width="83" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -66,11 +67,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Da-2y-9kV">
-                                <rect key="frame" x="28" y="164" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Da-2y-9kV">
+                                <rect key="frame" x="28" y="164" width="331" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：薛之謙    作曲：薛之謙
+                                <string key="text">作詞：薛之謙    作曲：薛之謙
 
 編曲：Venk
 
@@ -119,7 +120,7 @@
 請剪掉那些情節讓我看上去體面
 可你曾經那麼愛我幹嘛演出細節
 不在意的樣子是我最後的表演
-是因為愛你我才選擇表演 這種成全</mutableString>
+是因為愛你我才選擇表演 這種成全</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -131,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bt-B2-Saj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2636" y="1540"/>
+            <point key="canvasLocation" x="2636" y="1539.5802098950526"/>
         </scene>
         <!--男歌手👨‍🎤-->
         <scene sceneID="7F6-mf-kJ1">
@@ -151,7 +152,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="145.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02-1" translatesAutoresizingMaskIntoConstraints="NO" id="bJ7-5c-dBd">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02" translatesAutoresizingMaskIntoConstraints="NO" id="bJ7-5c-dBd">
                                                     <rect key="frame" x="16" y="0.0" width="136" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -193,7 +194,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="飄向北方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSJ-Ra-1Ud">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="漂向北方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSJ-Ra-1Ud">
                                                     <rect key="frame" x="172" y="78" width="70" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -286,7 +287,7 @@
         <scene sceneID="Fgd-2H-0v4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t2y-gU-e8H" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="男歌手" id="XMK-98-cN7"/>
+                    <tabBarItem key="tabBarItem" title="男歌手" image="icons8-man-filled-30" id="XMK-98-cN7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P6H-4W-qcd">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -313,18 +314,18 @@
                                 <rect key="frame" x="16" y="76" width="83" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黃明志丶王力宏 - 飄向北方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl3-Xs-74w">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黃明志丶王力宏 - 漂向北方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl3-Xs-74w">
                                 <rect key="frame" x="107" y="106" width="207" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xEQ-9x-w3f">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xEQ-9x-w3f">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：黃明志    作曲：黃明志
+                                <string key="text">作詞：黃明志    作曲：黃明志
 
 漂向北方 別問我家鄉
 高聳古老的城牆 擋不住憂傷
@@ -399,7 +400,7 @@
 這裡是圓夢的聖地 但卻總是撲朔迷離
 多少人敵不過殘酷的現實 從此銷聲匿跡
 多少人陷入了昏迷 剩下一具 空殼屍體
-Rest In Peace</mutableString>
+Rest In Peace</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -411,7 +412,7 @@ Rest In Peace</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YtE-Ln-Sxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3286" y="1540"/>
+            <point key="canvasLocation" x="3342" y="1540"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UWT-Wk-SxX">
@@ -432,11 +433,11 @@ Rest In Peace</mutableString>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hEe-5w-HMS">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hEe-5w-HMS">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：Eric周興哲/吳易緯    作曲：Eric周興哲
+                                <string key="text">作詞：Eric周興哲/吳易緯    作曲：Eric周興哲
 
 是不是 還那麼愛遲到
 熬夜工作又睡不好
@@ -484,7 +485,7 @@ Rest In Peace</mutableString>
 別用離開教我 失去的人最重要
 別說 你曾經愛過我
 讓我們回到那一秒
-你好不好</mutableString>
+你好不好</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -496,7 +497,7 @@ Rest In Peace</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZX-Hh-UBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3879" y="1540"/>
+            <point key="canvasLocation" x="4038" y="1540"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9Il-yh-CUU">
@@ -517,11 +518,11 @@ Rest In Peace</mutableString>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-0d-JHT">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-0d-JHT">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：林燕岑    作曲：Enik Lin、李玖哲 
+                                <string key="text">作詞：林燕岑    作曲：Enik Lin、李玖哲 
 當 心裡想說的話不一樣
 怕氣氛變得尷尬 用微笑就能隱藏
 
@@ -550,7 +551,7 @@ Hey 我知道我很假
 對不起我很假
 不是每個人 都能真心接受真心話
 心很寬 也會孤單 也會不安 怕被看穿
-只想很簡單 好或壞全都 無關</mutableString>
+只想很簡單 好或壞全都 無關</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -562,7 +563,7 @@ Hey 我知道我很假
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6d3-w7-6RD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4478" y="1540"/>
+            <point key="canvasLocation" x="4742" y="1540"/>
         </scene>
         <!--女歌手👩‍🎤-->
         <scene sceneID="h69-YQ-owl">
@@ -732,11 +733,11 @@ Hey 我知道我很假
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-gN-K80">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-gN-K80">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：Skot Suyama (陶山)    作曲：Skot Suyama (陶山)
+                                <string key="text">作詞：Skot Suyama (陶山)    作曲：Skot Suyama (陶山)
 
 Well I've seen the aurora lights
 I passed out in Shibuya at night
@@ -810,7 +811,7 @@ I'd rather come home
 I'm coming ho-ho-ho-ho-ho-ho-ho-home
 Ho-ho-ho-ho-ho-ho-ho-home
 I'm coming ho-ho-ho-ho-ho-ho-ho-home
-I'm coming home</mutableString>
+I'm coming home</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -822,7 +823,7 @@ I'm coming home</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENU-TK-hDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2636" y="27"/>
+            <point key="canvasLocation" x="2636" y="26.53673163418291"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6hM-dl-qQp">
@@ -843,11 +844,11 @@ I'm coming home</mutableString>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ANy-lc-G7M">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ANy-lc-G7M">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：傅又宣、MC HAN     作曲：Skot Suyama 陶山 
+                                <string key="text">作詞：傅又宣、MC HAN     作曲：Skot Suyama 陶山 
 
 編曲：Skot Suyama 陶山
 
@@ -909,7 +910,7 @@ Baby it's better this way
 我也是受罪 受罪令人憔悴
 憔悴只會感覺更卑微
 誰都不是誰的傀儡
-擁抱彼此的支離和破碎</mutableString>
+擁抱彼此的支離和破碎</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -921,7 +922,7 @@ Baby it's better this way
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOs-eL-Mqj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3343" y="27"/>
+            <point key="canvasLocation" x="3341.5999999999999" y="26.53673163418291"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="706-Ih-WDb">
@@ -942,11 +943,11 @@ Baby it's better this way
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fuz-0z-gD8">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fuz-0z-gD8">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：G.E.M    作曲：G.E.M
+                                <string key="text">作詞：G.E.M    作曲：G.E.M
 
 陽光下的泡沫 是彩色的
 就像被騙的我 是幸福的
@@ -978,7 +979,7 @@ Baby it's better this way
 
 在雨下的泡沫 一觸就破
 當初熾熱的心 早已沉沒
-說什麼你愛我 如果騙我 我寧願你沉默</mutableString>
+說什麼你愛我 如果騙我 我寧願你沉默</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -990,7 +991,7 @@ Baby it's better this way
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBR-ZX-Izz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4039" y="27"/>
+            <point key="canvasLocation" x="4037.5999999999999" y="26.53673163418291"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="E24-tK-C7A">
@@ -1011,85 +1012,53 @@ Baby it's better this way
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Av9-bL-9GY">
-                                <rect key="frame" x="26" y="174" width="331" height="852"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Av9-bL-9GY">
+                                <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：Skot Suyama (陶山)    作曲：Skot Suyama (陶山)
+                                <mutableString key="text">作詞：張楚翹    作曲：伍樂城
 
-Well I've seen the aurora lights
-I passed out in Shibuya at night
-I broke my arm yea but now it's fine
-I keep moving on and on
+抱一抱 就當作從沒有在一起
+好不好 要解釋都已經來不及
+算了吧 我付出過甚麼沒關係
+我忽略自己 就因為遇見你
 
-And I've had a broken heart
-Put it back together, watched it fall apart
-I started over from the start
-I keep moving on and on
+沒辦法 好可怕 那個我 不像話
+一直奮不顧身 是我太傻
 
-So tell me what it means when
-Everything I see is grey and I can't believe
-I'm just going through the motions
-Hoping to feel something
+說不上愛別說謊 就一點喜歡
+說不上恨別糾纏 別裝作感嘆
+就當作我太麻煩 不停讓自己受傷
+我告訴我自己 感情就是這樣
+怎麼一不小心太瘋狂
 
-Cause baby life is tired when you're on the road
-There's lots of pretty faces that I don't know
-I could have a million people at my show
-I'd rather come home
+抱一抱 再好好覺悟不能長久
+好不好 有虧欠我們都別追究
+算了吧 我付出再多都不足夠
+我終於得救 我不想再獻醜
 
-Now time is flying fast and I'm getting old
-Don't wanna venture forth into the unknown
-I'd be too afraid to be all alone
-I'd rather come home
+沒辦法 不好嗎 大家都 不留下
+一直勉強相處 總會累垮
 
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
-Ho-ho-ho-ho-ho-ho-ho-home
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
+說不上愛別說謊 就一點喜歡
+說不上恨別糾纏 別裝作感嘆
+就當作我太麻煩 不停讓自己受傷
+我告訴我自己 感情就是這樣
+怎麼一不小心太瘋狂
 
-Well I've seen the aurora lights
-I passed out in Shibuya at night
-And I broke my arm yea but now it's fine
-I keep moving on and on
+別後悔 就算錯過
+在以後 你少不免想起我
+還算不錯
+當我不在你會不會難過
+你夠不夠我這樣灑脫
 
-And I've had a broken heart
-Put it back together, watched it fall apart
-I started over from the start
-I keep moving on and on
-
-So tell me what it means when
-Everything I see is grey and I can't believe
-I'm just going through the motions
-Hoping to feel something
-
-Cause baby life is tired when you're on the road
-There's lots of pretty faces that I don't know
-I could have a million people at my show
-I'd rather come home
-
-Now time is flying fast and I'm getting old
-Don't wanna venture forth into the unknown
-I'd be too afraid to be all alone
-I'd rather come home
-
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
-Ho-ho-ho-ho-ho-ho-ho-home
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
-I'm coming home
-
-Cause baby life is tired when you're on the road
-There's lots of pretty faces that I don't know
-I could have a million people at my show
-I'd rather come home
-
-Now time is flying fast and I'm getting old
-Don't wanna venture forth into the unknown
-I'd be too afraid to be all alone
-I'd rather come home
-
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
-Ho-ho-ho-ho-ho-ho-ho-home
-I'm coming ho-ho-ho-ho-ho-ho-ho-home
-I'm coming home</mutableString>
+說不上愛別說謊 就一點喜歡
+說不上恨別糾纏 別裝作感嘆
+將一切都體諒 將一切都原諒
+我嘗試找答案 而答案很簡單
+簡單得很遺憾 因為成長
+我們逼不得已要習慣
+因為成長 我們忽爾間說散就散</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1101,17 +1070,19 @@ I'm coming home</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCe-8V-ljh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4743" y="27"/>
+            <point key="canvasLocation" x="4741.6000000000004" y="26.53673163418291"/>
         </scene>
     </scenes>
     <resources>
         <image name="01_huang" width="500" height="500"/>
-        <image name="02-1" width="500" height="500"/>
+        <image name="02" width="500" height="500"/>
         <image name="03" width="500" height="500"/>
         <image name="04" width="500" height="500"/>
         <image name="05" width="500" height="500"/>
         <image name="06" width="500" height="500"/>
         <image name="07" width="500" height="500"/>
         <image name="08" width="500" height="500"/>
+        <image name="icons8-lady-filled-30" width="30" height="30"/>
+        <image name="icons8-man-filled-30" width="30" height="30"/>
     </resources>
 </document>

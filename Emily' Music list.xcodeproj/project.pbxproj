@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A157D97520F890C60066DCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A157D97420F890C40066DCE6 /* Assets.xcassets */; };
 		A1EAC7C220F8750800624506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EAC7C120F8750800624506 /* AppDelegate.swift */; };
 		A1EAC7C420F8750800624506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EAC7C320F8750800624506 /* ViewController.swift */; };
 		A1EAC7C720F8750800624506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EAC7C520F8750800624506 /* Main.storyboard */; };
-		A1EAC7C920F8750900624506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EAC7C820F8750900624506 /* Assets.xcassets */; };
 		A1EAC7CC20F8750900624506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EAC7CA20F8750900624506 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A157D97420F890C40066DCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1EAC7BE20F8750800624506 /* Emily' Music list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emily' Music list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EAC7C120F8750800624506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1EAC7C320F8750800624506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1EAC7C620F8750800624506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1EAC7C820F8750900624506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1EAC7CB20F8750900624506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EAC7CD20F8750900624506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 				A1EAC7C120F8750800624506 /* AppDelegate.swift */,
 				A1EAC7C320F8750800624506 /* ViewController.swift */,
 				A1EAC7C520F8750800624506 /* Main.storyboard */,
-				A1EAC7C820F8750900624506 /* Assets.xcassets */,
+				A157D97420F890C40066DCE6 /* Assets.xcassets */,
 				A1EAC7CA20F8750900624506 /* LaunchScreen.storyboard */,
 				A1EAC7CD20F8750900624506 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1EAC7CC20F8750900624506 /* LaunchScreen.storyboard in Resources */,
-				A1EAC7C920F8750900624506 /* Assets.xcassets in Resources */,
+				A157D97520F890C60066DCE6 /* Assets.xcassets in Resources */,
 				A1EAC7C720F8750800624506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P53KZ4LDY;
 				INFOPLIST_FILE = "Emily' Music list/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P53KZ4LDY;
 				INFOPLIST_FILE = "Emily' Music list/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

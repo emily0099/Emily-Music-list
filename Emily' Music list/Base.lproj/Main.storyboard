@@ -511,13 +511,6 @@ Rest In Peace</string>
                                 <rect key="frame" x="16" y="76" width="83" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="李玖哲 - 我很假" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsA-1h-NiB">
-                                <rect key="frame" x="107" y="106" width="121" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-0d-JHT">
                                 <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1016,7 +1009,7 @@ Baby it's better this way
                                 <rect key="frame" x="26" y="174" width="331" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">作詞：張楚翹    作曲：伍樂城
+                                <string key="text">作詞：張楚翹    作曲：伍樂城
 
 抱一抱 就當作從沒有在一起
 好不好 要解釋都已經來不及
@@ -1058,7 +1051,7 @@ Baby it's better this way
 我嘗試找答案 而答案很簡單
 簡單得很遺憾 因為成長
 我們逼不得已要習慣
-因為成長 我們忽爾間說散就散</mutableString>
+因為成長 我們忽爾間說散就散</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
